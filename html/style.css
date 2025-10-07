@@ -1,0 +1,70 @@
+ .cantain img{
+            filter: brightness(50%);
+        }
+        .bg-img {
+    position: relative;
+    background: url('imagess.png') center/cover no-repeat;
+    
+}
+
+.bg-img::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(56, 56, 56, 0.7);  
+    z-index: 1;
+}
+.custom-link:hover {
+    background-color: #fc6a03;
+    color: white;
+  }
+
+.bg-img > * {
+    position: relative;
+    z-index: 2; 
+}
+.mi-btn:hover {
+    background: linear-gradient(100deg, #ce2b02, #dd7349)!important;   
+    color: rgb(255, 255, 255) !important;                        
+    border: 2px solid #e63206 !important;  
+    cursor: pointer; 
+                           
+                       
+}
+.my-btn {
+    background: linear-gradient(100deg, #ce2b02, #dd7349)!important;   
+    color: white !important;                        
+    border: 2px solid #e63206 !important;  
+    cursor: pointer;                        
+                       
+} 
+.heading-bar {
+    position: relative;
+    display: inline-block;
+}
+
+.heading-bar::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right:10;
+    bottom: 25px;              
+    width: 60px;              
+    height: 4px;              
+     background: linear-gradient(100deg, #ce2b02, #dd7349)!important; 
+    border-radius: 2px;        
+}
+.hounder:hover{
+    text-decoration-line:underline ;
+}
+
+.hounder{
+    text-decoration-line:none;
+}
+.houner:hover{
+    background: linear-gradient(100deg, #ce2b02, #dd7349)!important; 
+}
+
+.houner{
+    display:none;
+}
