@@ -1,0 +1,195 @@
+.aihome{
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+.aihome:hover{
+    color:#56f4fa;
+}
+.card:hover .card-title {
+    color: #FF4A52 !important;}
+
+.card:hover .card-img-overlay > .btn-info {
+    background-color: #FF4A52;
+   
+}
+.crd4 {
+  background-size: cover;
+  background-image: url('https://wallpapers.com/images/hd/beautiful-place-pictures-3z11zmf2telzoo7u.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+
+.icon-btn {
+ 
+  width: 10vh; 
+  height: 10vh;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.icon-btn i {
+    font-size: 2rem;
+}
+    
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+
+  color:black;
+  padding: 4px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color:black; 
+  padding: 4px 4px;
+  border:1px ridge honeydew;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.mi-btn {
+    background:#ef0800 !important;   
+    color: rgb(255, 255, 255) !important;                        
+    border: 2px solid #ef0800 !important;  
+    cursor: pointer; 
+                           
+                       
+}
+.logoo{
+    background: none;
+    color:gray;
+    cursor: pointer;
+}
+.logoo:hover{
+    background: none;
+    color: #ef0800;
+    cursor: pointer;
+}
+@media  screen and (max-width:1024px) {
+  .grd {
+    order: 250;
+  }
+}
+.btn{
+    background: #83c4c6;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #ef0800;
+    color: white;
+    cursor: pointer;
+}
+.bts{
+    background: #ef0800;
+    color: white;
+    cursor: pointer;
+}
+.bts:hover{
+    background: #83c4c6;
+    color: white;
+    cursor: pointer;
+}
+.topic {
+  font-family: 'Nothing You Could Do', cursive;  
+  font-size: 80px;
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.carousel-item .carousel-caption {
+  opacity: 0;
+  transform: translate(-50%, -40%);
+  transition: all 1s ease-in-out;
+}
+
+.carousel-item.active .carousel-caption {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+.carousel-caption {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: auto;
+  right: auto;
+  text-align: center;
+  width: 80%;
+}
+
+.hero-image {
+    width: 100%; 
+    height: 35vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.hero-text {
+
+    position: absolute;
+    top: 90%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 90%;  
+}
+
+.bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, #3d3c3c28, #2a2a2b);
+    opacity: 80%;
+    z-index: 0;
+    border-radius: .50rem; 
+}
+
+.bg {
+    position: relative;
+    border-radius: .50rem; 
+    overflow: hidden; 
+}
+
+.hero-image:hover{
+    transform: translateY(-8px);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.495); 
+}
+
+@media (max-width: 576px) {
+    .hero-image {
+        height: 30vh; 
+    }
+}
+@media  screen and (max-width:630px) {
+  .topic {
+    font-size: large;
+  }
+}
